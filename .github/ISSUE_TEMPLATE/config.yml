@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: FAQ
+    url: https://github.com/manami-project/anime-offline-database/blob/master/.github/CONTRIBUTING.md#faq
+    about: Frequently Asked Questions

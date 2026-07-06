@@ -1,0 +1,51 @@
+name: Merge request
+description: Entries which are separate in the dataset should be merged together?
+title: "Merge entries for <title>"
+labels: [merge-request]
+assignees: manami-project
+body:
+- type: checkboxes
+  id: faq
+  attributes:
+    label: Have you read the FAQ?
+    description: Make sure that you carefully read [FAQ](https://github.com/manami-project/anime-offline-database/blob/master/.github/CONTRIBUTING.md#faq) before posting. Especially the paragraph **[How do you split entries?](https://github.com/manami-project/anime-offline-database/blob/master/.github/CONTRIBUTING.md#how-do-you-split-entries)**
+    options:
+      - label: Yes I have read the FAQ
+        required: true
+  validations:
+    required: true
+- type: textarea
+  id: entries
+  attributes:
+    label: Sources
+    description: List the URLs from `sources` property which should be merged together into a single entry.
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: |
+      **Example:**
+      ````
+      ```
+      "https://anidb.net/anime/4563",
+      "https://animecountdown.com/40190",
+      "https://simkl.com/anime/40190"
+      ```
+  
+      ```
+      "https://anilist.co/anime/1535",
+      "https://anime-planet.com/anime/death-note",
+      "https://anisearch.com/anime/3633",
+      "https://kitsu.app/anime/1376",
+      "https://livechart.me/anime/3437",
+      "https://myanimelist.net/anime/1535",
+      "https://notify.moe/anime/0-A-5Fimg",
+      ```
+      ````
+- type: textarea
+  id: reason
+  attributes:
+    label: Additional reasoning
+    description: Explanation why these entries should be merged. It should contain references to properties or meta data for more clarity.
+  validations:
+    required: false
