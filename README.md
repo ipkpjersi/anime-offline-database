@@ -1,7 +1,7 @@
-[![License: ODbL-1.0](https://img.shields.io/badge/license-ODbL--1.0-orange)](https://github.com/manami-project/anime-offline-database/blob/2026-27/LICENSE)
+[![License: ODbL-1.0](https://img.shields.io/badge/license-ODbL--1.0-orange)](https://github.com/ipkpjersi/anime-offline-database/blob/2026-27/LICENSE)
 
 # anime-offline-database
-The purpose of this repository is to create a dataset containing anime metadata aggregated by different anime metadata providers (such as myanimelist.net, anidb.net, kitsu.app and more) and allow cross-references between those metadata providers. This dataset is supposed to be used by and created for [manami](https://github.com/manami-project/manami).
+The purpose of this repository is to create a dataset containing anime metadata aggregated by different anime metadata providers (such as myanimelist.net, anidb.net, kitsu.app and more) and allow cross-references between those metadata providers. This dataset is supposed to be used by and created for manami.
 
 > [!IMPORTANT]  
 > After the _2025-25_ update the dataset files will be removed from the repo and moved to releases instead.
@@ -137,12 +137,12 @@ Here are some examples showing what the files look like.
 
 ```json
 {
-  "$schema": "https://raw.githubusercontent.com/manami-project/anime-offline-database/refs/tags/2025-18/anime-offline-database.schema.json",
+  "$schema": "https://raw.githubusercontent.com/ipkpjersi/anime-offline-database/refs/tags/2025-18/anime-offline-database.schema.json",
   "license": {
     "name": "Open Data Commons Open Database License (ODbL) v1.0 + Database Contents License (DbCL) v1.0",
-    "url": "https://github.com/manami-project/anime-offline-database/blob/2025-18/LICENSE"
+    "url": "https://github.com/ipkpjersi/anime-offline-database/blob/2025-18/LICENSE"
   },
-  "repository": "https://github.com/manami-project/anime-offline-database",
+  "repository": "https://github.com/ipkpjersi/anime-offline-database",
   "scoreRange": {
     "minInclusive": 1.0,
     "maxInclusive": 10.0
@@ -354,12 +354,12 @@ Here are some examples showing what the files look like.
 
 ```json
 {
-  "$schema": "https://raw.githubusercontent.com/manami-project/anime-offline-database/refs/tags/2025-18/dead-entries/dead-entries.schema.json",
+  "$schema": "https://raw.githubusercontent.com/ipkpjersi/anime-offline-database/refs/tags/2025-18/dead-entries/dead-entries.schema.json",
   "license": {
     "name": "Open Data Commons Open Database License (ODbL) v1.0 + Database Contents License (DbCL) v1.0",
-    "url": "https://github.com/manami-project/anime-offline-database/blob/2025-18/LICENSE"
+    "url": "https://github.com/ipkpjersi/anime-offline-database/blob/2025-18/LICENSE"
   },
-  "repository": "https://github.com/manami-project/anime-offline-database",
+  "repository": "https://github.com/ipkpjersi/anime-offline-database",
   "lastUpdate": "2025-05-02",
   "deadEntries": [
     "38492",

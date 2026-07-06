@@ -2,13 +2,13 @@ name: Merge request
 description: Entries which are separate in the dataset should be merged together?
 title: "Merge entries for <title>"
 labels: [merge-request]
-assignees: manami-project
+assignees: ipkpjersi
 body:
 - type: checkboxes
   id: faq
   attributes:
     label: Have you read the FAQ?
-    description: Make sure that you carefully read [FAQ](https://github.com/manami-project/anime-offline-database/blob/master/.github/CONTRIBUTING.md#faq) before posting. Especially the paragraph **[How do you split entries?](https://github.com/manami-project/anime-offline-database/blob/master/.github/CONTRIBUTING.md#how-do-you-split-entries)**
+    description: Make sure that you carefully read [FAQ](https://github.com/ipkpjersi/anime-offline-database/blob/master/.github/CONTRIBUTING.md#faq) before posting. Especially the paragraph **[How do you split entries?](https://github.com/ipkpjersi/anime-offline-database/blob/master/.github/CONTRIBUTING.md#how-do-you-split-entries)**
     options:
       - label: Yes I have read the FAQ
         required: true

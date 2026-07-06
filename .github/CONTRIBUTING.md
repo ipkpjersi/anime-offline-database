@@ -7,7 +7,7 @@ If you find something that, in your opinion, could be the result of incorrectly 
 # FAQ
 
 ## Can I somehow contribute?
-Check the [predefined issue templates](https://github.com/manami-project/anime-offline-database/issues/new/choose) in case you want to report to one of the available cases.
+Check the [predefined issue templates](https://github.com/ipkpjersi/anime-offline-database/issues/new/choose) in case you want to report to one of the available cases.
 
 ## What do you mean by 'meta data providers'?
 Websites which provide information about anime such as `myanimelist.net`, `notify.moe`, ...
@@ -15,7 +15,7 @@ Websites which provide information about anime such as `myanimelist.net`, `notif
 ## Can you please add additional data/properties?
 No. The dataset has been created for my own tool. It contains all data/properties that I need and I won't add more data/properties. This is merely an index. The idea is to visit the meta data provider of your choice to get additional information about the anime.
 
-Out of curiosity I created an extension project "[modb-extension ](https://github.com/manami-project/modb-extension)" which can be seen as an experimental demonstration on how to extend the current dataset. It currently contains **synopsis** and **scores**.
+Out of curiosity I created an extension project "[modb-extension ](https://github.com/ipkpjersi/modb-extension)" which can be seen as an experimental demonstration on how to extend the current dataset. It currently contains **synopsis** and **scores**.
 
 ## Can you please add an additional meta data provider?
 No. I don't plan to add any additional meta data provider.
@@ -37,7 +37,7 @@ There are. The entries under `sources` are the IDs. Each of the arrays URLs is a
 It is created automatically and reviewed in a half-automated process.
 
 ## Do you plan to open source the code which creates this dataset?
-The code is [available](https://github.com/manami-project?tab=repositories&q=modb&type=source).
+The code is [available](https://github.com/ipkpjersi?tab=repositories&q=modb&type=source).
 
 ## How do you split entries?
 Entries are split if one meta data provider lists multiple entries as one and others don't.
@@ -54,11 +54,11 @@ If there are new entries which have been created after an update then those obvi
 Apart from that it should contain all titles from the supported meta data providers.
 
 ## Will you create a similar dataset for manga?
-No. I don't have a project which needs it and therefore no necessity for it. This repo is actually just a side project originating from [manami](https://github.com/manami-project/manami). So without manami I wouldn't have created it.
+No. I don't have a project which needs it and therefore no necessity for it. This repo is actually just a side project originating from manami. So without manami I wouldn't have created it.
 The other reason is that despite the automation already in place I still invest a huge amount of time in order to keep this dataset continuously updated. Which means that another project like this would be too time consuming. Especially if I don't need it for a project of my own.
 
 ## Can you merge tags like "scifi", "sci fi" and "sci-fi" together?
-No. Different meta data providers list tags and genres differently. Tags don't aspire to be a curated list. Besides, it would be too tedious to keep track and I would have to make a decision about which value wins. But I don't want to decide on the wording. See also the [original release notes](https://github.com/manami-project/anime-offline-database/releases/tag/2020-25).
+No. Different meta data providers list tags and genres differently. Tags don't aspire to be a curated list. Besides, it would be too tedious to keep track and I would have to make a decision about which value wins. But I don't want to decide on the wording. See also the [original release notes](https://github.com/ipkpjersi/anime-offline-database/releases/tag/2020-25).
 
 ## Can you fix a typo in the title/synonym/tags?
 No. The values are taken as-is from the meta data providers. Please check from which meta data provider the faulty value originates and ask for change there.

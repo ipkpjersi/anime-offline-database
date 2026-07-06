@@ -1,13 +1,13 @@
 name: Problem in data extraction
 description: Is there a problem in the data extraction?
 labels: [data-extraction]
-assignees: manami-project
+assignees: ipkpjersi
 body:
 - type: checkboxes
   id: faq
   attributes:
     label: Have you read the FAQ?
-    description: Make sure that you carefully read [FAQ](https://github.com/manami-project/anime-offline-database/blob/master/.github/CONTRIBUTING.md#faq) before posting.
+    description: Make sure that you carefully read [FAQ](https://github.com/ipkpjersi/anime-offline-database/blob/master/.github/CONTRIBUTING.md#faq) before posting.
     options:
       - label: Yes I have read the FAQ
         required: true
